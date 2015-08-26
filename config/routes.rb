@@ -54,5 +54,7 @@ Rails.application.routes.draw do
   #     resources :products
   #   end
 
+  root('article#index')
+
   resources(:article)
 end
